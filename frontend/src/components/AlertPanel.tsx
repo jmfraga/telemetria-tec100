@@ -37,7 +37,7 @@ export default function AlertPanel({ alerts }: Props) {
                   />
                   <div className="min-w-0">
                     <p className="text-xs font-medium text-slate-200">
-                      Cama {alert.bed}
+                      Sillón {alert.bed}
                     </p>
                     <p
                       className={`text-xs ${

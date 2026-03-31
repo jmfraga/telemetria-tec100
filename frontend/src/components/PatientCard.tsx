@@ -44,7 +44,7 @@ export default function PatientCard({ patient, onClick }: Props) {
       <div className="mb-3 flex items-start justify-between">
         <div>
           <span className="text-xs font-bold uppercase tracking-wider text-slate-500">
-            Cama {bed}
+            Sillón {bed}
           </span>
           <p className="text-sm font-medium text-slate-200 leading-tight">
             {name}

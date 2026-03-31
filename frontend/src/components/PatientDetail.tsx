@@ -86,7 +86,7 @@ export default function PatientDetail({ patient, history, onClose }: Props) {
         <div className="mb-6 flex items-start justify-between">
           <div>
             <p className="text-xs font-bold uppercase tracking-wider text-slate-500">
-              Cama {patient.bed}
+              Sillón {patient.bed}
             </p>
             <h2 className="text-xl font-bold text-white">{patient.name}</h2>
             <p className="text-sm text-slate-400">
